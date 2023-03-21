@@ -1,0 +1,21 @@
+##git Notes:
+#clone
+$git clone https://<github_token>@github.com/<username>/<repo_name>.git
+
+#create a branch
+$git checkout -b new_branch
+
+#create a commit
+$git add <filename>
+$git commit -m "<commit message>"
+
+
+#push to remote
+$git push  https://<github_token>@github.com/<username>/<repo_name>.git <branch_name>
+
+#modify changes in existing file then push
+$do file changes
+$git add <filename>
+$git commit --amend 
+$git push -f https://<github_token>@github.com/<username>/<repo_name>.git <branch_name>
+
